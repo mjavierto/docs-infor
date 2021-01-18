@@ -1,0 +1,68 @@
+{
+  "header": {
+    "header_doc_central": "Documentation Central",
+    "header_products": "Products",
+    "header_products_az": "Infor Products A-Z",
+    "header_cloud": "Cloud",
+    "header_technology": "Technology",
+    "language": {
+      "header_language_message": "Select a language",
+      "header_all_link": "All languages"
+    }
+  },
+  "home": {
+    "home_tagline": "Guiding you to success, wherever you are.",
+    "home_browse": "Browse Products A-Z"
+  },
+  "footer": {
+    "footer_training": "Training",
+    "footer_support": "Support",
+    "footer_services": "Services",
+    "footer_contact": "Contact Infor",
+    "footer_legal": "Legal",
+    "footer_privacy": "Privacy",
+    "footer_copyright": "Copyright 2020. Infor. All rights reserved."
+  },
+  "products": {
+    "products_title": "Infor Products",
+    "products_home": "Home",
+    "products_header_products_az": "Products A-Z",
+    "products_extreme_message_pre_link": "If you do not find your product name in this list, see ",
+    "products_extreme_message_post_link": " (login may be required)."
+  },
+  "product": {
+    "product_home": "Home",
+    "product_title_text": "Online Documentation Version",
+    "product_version": "Version",
+    "product_version_select": "Select a version",
+    "product_language_not_available": "Not all content is available in your language. We have listed the English-only content for you as well.",
+    "product_title_column": "Title",
+    "product_language_column": "Language",
+    "product_date_column": "Date Published",
+    "product_add_info_pre_link": "Additional information, including technical and installation guides, and earlier versions than those listed here, are available at ",
+    "product_add_info_post_link": " (login may be required).",
+    "product_demo_header": "Documentation Survey",
+    "product_demo_text": "Help us to help you, by taking a survey about Infor’s documentation.",
+    "product_demo_button": "Launch survey ›"
+  },
+  "error": {
+    "error_to_homepage": "Go back to Home page ›",
+    "error_contact_pre_link": "Think something's wrong? Please ",
+    "error_contact_linktext": "contact us",
+    "error_contact_post_link": ".",
+    "error_message_401": "The requested resource requires user authentication.",
+    "error_message_403": "You do not have permission to access this page.",
+    "error_message_404": "It seems like the page you were looking for is unavailable",
+    "error_message_500": "It seems like the page you were looking for is unavailable."
+  },
+  "locale": {
+    "locale_select_message": "Select a language",
+    "locale_title": "Languages",
+    "locale_home": "Home",
+    "locale_lang_az": "Languages A-Z"
+  },
+  "modal": {
+    "modal_title_error_browser": "Unsupported browser",
+    "modal_message_ie": "We no longer support Internet Explorer on docs.infor.com.{0}Please use the latest version of one of these browsers: Chrome, Edge, Firefox, or Safari."
+  }
+}
