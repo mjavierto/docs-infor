@@ -1,0 +1,570 @@
+/*!
+################################################################################################
+# MEDIA.CSS
+# BUILD: V.1.0.2 2017, JULY 5, 2017
+# DOCUMENTATION CENTRAL V 2.0 
+
+################################################################################################
+!*/
+.cards .card-icon {
+    background: url('/furniture/design2015/images/icon/card-icons.png') no-repeat 0 0;
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 50px;
+    z-index: 2;
+}
+
+.social-section .cards .card-icon {
+    background-image: url('../images/nav-icon/card-icons-colored.png');
+}
+
+.social-section .cards .card:hover .card-icon {
+    background-image: url('../images/nav-icon/card-icons-colored.png');
+}
+
+.cards .paper-icon {
+    background-position: 0 0;
+}
+
+.cards .monitor-icon {
+    background-position: 0 -50px;
+}
+
+.cards .book-icon {
+    background-position: 0 -100px;
+}
+
+.cards .video-icon {
+    background-position: 0 -150px;
+}
+
+.cards .newspaper-icon {
+    background-position: 0 -200px;
+}
+
+.cards .press-icon {
+    background-position: 0 -250px;
+}
+
+.cards .calendar-icon {
+    background-position: 0 -300px;
+}
+
+.cards .wit-icon {
+    background-position: 0 -350px;
+}
+
+.cards .twitter-icon {
+    background-position: 0 -400px;
+}
+
+.cards .linkedin-icon {
+    background-position: 0 -450px;
+}
+
+.cards .building-icon {
+    background-position: 0 -500px;
+}
+
+.social-cards {
+    margin-bottom: 0px;
+}
+
+.social-cards .card {
+    background: #f9f9f9;
+    border-top: 4px solid transparent;
+    color: #333;
+    float: left;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-right: 2.14285%;
+    position: relative;
+    width: 23.57142%
+}
+
+.social-cards .card:hover {
+    color: #737373;
+}
+
+.social-cards .card.wide {
+    margin-right: 0;
+    width: 48.57142%
+}
+
+.social-cards .card-header {
+    display: block;
+    height: 50px;
+    padding-left: 50px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.social-cards .card-title {
+    display: table;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    padding: 0 20px 0 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.social-cards a.card-header:hover .card-title {
+    text-decoration: underline;
+}
+
+.social-cards .card:hover .card-title {
+    color: #333;
+}
+
+.social-cards .card-title p {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.social-cards .card-container {
+    max-height: 346px;
+    overflow-y: auto;
+    padding: 40px 50px 20px;
+}
+
+.social-cards .card-content {
+    position: relative;
+    z-index: 2;
+}
+
+.social-cards .card-content p {
+    font-size: 18px;
+}
+
+.social-cards .card-content a {
+    color: #333;
+}
+
+.social-cards .card:hover a {
+    color: #333;
+}
+
+.social-cards .card-content .title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.social-cards .card-content .time {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.social-cards .card:hover .card-content .time {
+    color: #333;
+}
+
+.social-cards .card-content .cta {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social-cards .twitter-card {
+    border-color: #65c6fc;
+}
+
+.social-cards .twitter-card:hover {
+    background: #65c6fc;
+}
+
+.social-cards .twitter-card .card-title {
+    color: #333;
+    text-align: right;
+}
+
+.social-cards .twitter-card .card-container {
+    max-height: 280px;
+}
+
+.social-cards .twitter-card .image {
+    margin-top: 20px;
+}
+
+.social-cards .twitter-card .image img {
+    margin: 0 auto;
+}
+
+.social-cards .twitter-card .actions {
+    left: 0;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    width: 100%;
+    z-index: 2;
+}
+
+.social-cards .twitter-card .actions li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.social-cards .twitter-card .actions a {
+    background: url('/furniture/design2015/images/icon/social-actions.png') no-repeat left 0;
+    color: #ababab;
+}
+
+.social-cards .twitter-card:hover .actions a {
+    background-image: url('/furniture/design2015/images/icon/social-actions-white.png');
+    color: #fff;
+}
+
+.social-cards .twitter-card .actions .reply a {
+    background-position: 0 -7px;
+    padding-left: 16px;
+}
+
+.social-cards .twitter-card .actions .retweet a {
+    background-position: 0 -37px;
+    padding-left: 22px;
+}
+
+.social-cards .twitter-card .actions .favorite a {
+    background-position: 0 -67px;
+    padding-left: 19px;
+}
+
+.social-cards .news-card {
+    border-color: #9ed927;
+}
+
+.social-cards .news-card:hover {
+    background: #333;
+}
+
+.social-cards .news-card .card-title {
+    color: #9ed927;
+}
+
+.social-cards .press-card {
+    border-color: #24a4f4;
+}
+
+.social-cards .press-card:hover {
+    background: #24a4f4;
+}
+
+.social-cards .press-card .card-title {
+    color: #24a4f4;
+}
+
+.social-cards .press-card .title {
+    margin-bottom: 20px;
+}
+
+.social-cards .linkedin-card {
+    border-color: #0f61e2;
+}
+
+.social-cards .linkedin-card:hover {
+    background: #0f61e2;
+}
+
+.social-cards .linkedin-card .card-title {
+    color: #333;
+    text-align: right;
+}
+
+.social-cards .linkedin-card .number {
+    color: #005ce6;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.social-cards .linkedin-card:hover .number {
+    color: #fff;
+}
+
+.social-cards .social-stat-card .stat {
+    font-size: 18px;
+    position: relative;
+}
+
+.social-cards .video-card {
+    border-color: #a352cc;
+}
+
+.social-cards .video-card:hover {
+    background: transparent;
+}
+
+.social-cards .video-card .card-title {
+    color: #a352cc;
+}
+
+.social-cards .video-card .video-description {
+    float: left;
+    width: 32.25806%
+}
+
+.social-cards .video-card .video-thumb {
+    float: right;
+    max-width: 400px;
+    position: relative;
+    width: 64.51612%
+}
+
+.social-cards .video-card .trigger-video-btn {
+    background: rgba(163, 82, 204, .7);
+    left: 50%;
+    height: 66px;
+    margin: -33px 0 0 -30px;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+}
+
+.social-cards .video-card .trigger-video-btn:hover {
+    background: rgba(163, 82, 204, 1);
+}
+
+.social-cards .video-card .trigger-video-btn .icon {
+    background: url('/furniture/design2015/images/icon/play-btn-light.png') no-repeat center 0;
+    border-bottom: 1px solid #fff;
+    display: block;
+    height: 30px;
+    margin: 10px auto 0 auto;
+    width: 40px;
+}
+
+.social-cards .video-card .trigger-video-btn .duration {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.social-cards .evc-card {
+    background: url('/furniture/design2015/images/bg/evc-card-bg.jpg') no-repeat center top;
+    background-size: cover;
+    border-color: #ff574d;
+}
+
+.social-cards .evc-card:hover {
+    background-image: url('/furniture/design2015/images/bg/evc-card-hover-bg.jpg');
+}
+
+.social-cards .evc-card .card-title {
+    color: #ff574d;
+}
+
+.social-cards .events-card {
+    border-color: #1fc1b4;
+}
+
+.social-cards .events-card:hover {
+    background: #1fc1b4;
+}
+
+.social-cards .events-card .card-title {
+    color: #1fc1b4;
+}
+
+.social-cards .quote-card {
+    border-color: #fda929;
+}
+
+.social-cards .quote-card:hover {
+    background: #fda929;
+}
+
+.social-cards .quote-card .card-title {
+    color: #fda929;
+}
+
+.social-cards .quote-card .card-container {
+    max-height: 350px;
+}
+
+.social-cards .quote-card blockquote {
+    background: url('/furniture/design2015/images/icon/quote-orange-sm.png') no-repeat 0 0;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.social-cards .quote-card:hover blockquote {
+    background-image: url('/furniture/design2015/images/icon/quote-white-sm.png');
+}
+
+.social-cards .quote-card .author {
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+}
+
+.social-cards .quote-card .author.has-image {
+    padding-left: 65px;
+}
+
+.social-cards .quote-card .author img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.social-cards .quote-card .author span {
+    display: block;
+}
+
+.social-cards .quote-card .author a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (min--moz-device-pixel-ratio:2), 
+only screen and (-o-min-device-pixel-ratio:2/1), only screen and (-webkit-min-device-pixel-ratio:2), 
+only screen and (min-device-pixel-ratio:2) {
+    
+        .image-2x {
+        font-size: 1px;
+    }
+    .cards .card-icon {
+        background-image: url('/furniture/design2015/images/icon/card-icons-2x.png');
+        background-size: 50px 550px;
+    }
+
+    .social-section .cards .card-icon, .social-section .cards .card:hover .card-icon  {
+        background-image: url('../images/nav-icon/card-icons-colored.png');
+        background-size: 25px 25px;
+        height: 25px;
+        left: 4px;
+        top: 10px;
+        width: 46px;
+    }
+
+    .social-cards .twitter-card .actions a {
+        background-image: url('/furniture/design2015/images/icon/social-actions-2x.png');
+        background-size: 16px 120px;
+    }
+
+    .social-cards .twitter-card:hover .actions a {
+        background-image: url('/furniture/design2015/images/icon/social-actions-white-2x.png');
+    }
+
+    .social-cards .video-card .trigger-video-btn .icon {
+        background-image: url('/furniture/design2015/images/icon/play-btn-light-2x.png');
+        background-size: 13px 16px;
+    }
+
+    .social-cards .quote-card blockquote {
+        background-image: url('/furniture/design2015/images/icon/quote-orange-sm-2x.png');
+        background-size: 14px 11px;
+    }
+
+    .social-cards .quote-card:hover blockquote {
+        background-image: url('/furniture/design2015/images/icon/quote-white-sm-2x.png');
+    } 
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+    .c-3-col .col{
+        float: left;
+        width: 30.33%;
+    }
+
+    .social-cards .card {
+        margin-bottom: 10px;
+        margin-right: 1.10619%;
+        width: 49.4469%
+    }
+
+    .social-cards .card.wide {
+        margin-right: 0;
+        width: 100%
+    }
+
+    .social-cards .news-card, .social-cards .events-card {
+        margin-right: 0;
+    }
+
+    .social-cards .twitter-card .actions {
+        bottom: 30px;
+        top: auto;
+    }
+    .social-cards .card-container {
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 800px) {
+    .social-cards .card.wider{
+        padding-left: 20px;
+    }
+    .card-content {
+        padding: 5px 15px;
+        font-size: 100%;
+    }
+
+    .c-3-col .col{
+        float: left;
+        width: 50%;
+    }
+
+     .social-cards .card:last-child {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and  (max-width:480px){
+
+    .c-3-col .col{
+        float: none;
+        width: 100%;
+    }
+
+    .wrapper .social-cards {
+        margin-bottom: 10px;
+    }
+
+    .social-cards .card {
+        margin-right: 1.45348%;
+        width: 49.27325%
+    }
+
+    .social-cards .card:last-child {
+        margin-bottom: 20px;
+    }
+
+    .social-cards .card.wide {
+        margin-right: 0;
+        width: 100%
+          height: 100%;
+    }
+
+    .social-cards .news-card, .social-cards .events-card {
+        margin-right: 0;
+    }
+    .card-content {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .card-content a {
+        font-size: 18px;
+    }
+}
+
+
+
